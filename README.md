@@ -1,37 +1,34 @@
-### marquee
-marquee.js
+# marquee
+marquee.js plugin
 
 ## How To Use
 
-# 1. install
+### 1. Install
 First, you need to download the marquee.js library. You can find it on the official GitHub repository.
 
 `https://github.com/wdevbc/marquee`
 
-# 2. script
+### 2. Script
 ```script
 const marquee = new SimpleMarquee('.class', options);
 ```
 
-# 3. options
+### 3. Options
 autoplay: true
 speed: 0.9
 pauseOnMouseEnter: true
 direction: right
 
-# 4. html
+### 4. Html
 ```html
 <div class="class">
     <p>
         "You include text, images, and other resources here in HTML."
     </p>
-    <p>
-        "Contents are divided into multiple structures if they are short in length."
-    </p>
 </div>
 ```
 
-# 5. style
+### 5. Style
 ```css
 .class {
     display: flex;
@@ -44,7 +41,7 @@ direction: right
 }
 ```
 
-# 6. sample
+### 6. Sample
 ```sample code
 const marquee = new SimpleMarquee('.class', {
     autoplay: true,
@@ -53,7 +50,10 @@ const marquee = new SimpleMarquee('.class', {
     direction: left
 });
 ```
+### 7. Warning
+1. Contents are divided into multiple structures if they are short in length.
+2. The size of the item elements must be the same size.
 
-# 7. Demo
+### 8. Demo
 
 [Demo](https://git.wdev.kr/javascript/dev/marquee/marquee.html)
