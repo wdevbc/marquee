@@ -1,25 +1,25 @@
 ### marquee
 marquee.js
 
-##Hot To Ues
+## How To Use
 
-1. install
+# 1. install
 First, you need to download the marquee.js library. You can find it on the official GitHub repository.
 
 `https://github.com/wdevbc/marquee`
 
-2. script
+# 2. script
 ```script
 const marquee = new SimpleMarquee('.class', options);
 ```
 
-3. options
+# 3. options
 autoplay: true
 speed: 0.9
 pauseOnMouseEnter: true
 direction: right
 
-4. html
+# 4. html
 ```html
 <div class="class">
     <p>
@@ -31,7 +31,7 @@ direction: right
 </div>
 ```
 
-5. style
+# 5. style
 ```css
 .class {
     display: flex;
@@ -44,7 +44,7 @@ direction: right
 }
 ```
 
-6. sample
+# 6. sample
 ```sample code
 const marquee = new SimpleMarquee('.class', {
     autoplay: true,
@@ -54,5 +54,6 @@ const marquee = new SimpleMarquee('.class', {
 });
 ```
 
-7. Demo
+# 7. Demo
+
 [Demo](https://git.wdev.kr/javascript/dev/marquee/marquee.html)
