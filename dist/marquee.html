@@ -7,12 +7,14 @@
   </head>
   <body>
     <style>
-      .class {
-        display: flex;
+      body {
         overflow: hidden;
       }
+      .class {
+        display: flex;
+      }
       .class p {
-        flex-basis: 550px;
+        flex-basis: auto;
         flex-shrink: 0;
         padding-right: 40px;
       }
@@ -21,14 +23,18 @@
     <hr />
     <div class="class">
       <p>"You include text, images, and other resources here in HTML."</p>
+      <p>"You include text, images"</p>
       <p>"You include text, images, and other resources here in HTML."</p>
+      <p>"You include text, images"</p>
+      <p>"You include text, images, and other resources here in HTML."</p>
+      <p>"You include text, images"</p>
     </div>
     <script src="./marquee.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const marquee = new SimpleMarquee(".class", {
           autoplay: true,
-          speed: 0.9,
+          speed: 5,
           pauseOnMouseEnter: true,
           direction: "left",
         });

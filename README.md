@@ -51,8 +51,7 @@ const marquee = new SimpleMarquee('.class', {
 });
 ```
 ### 7. Warning
-1. Contents are divided into multiple structures if they are short in length.
-2. The size of the item elements must be the same size.
+1. If the content width is too short, spaces may appear. Therefore, copy the content to increase its length.
 
 ### 8. Demo
 
